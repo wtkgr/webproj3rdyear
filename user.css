@@ -1,0 +1,28 @@
+.jumbotron {
+    position: relative;
+    background:none;
+    color: aliceblue;
+  }
+  .jumbotron:after {
+      content : "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url(https://pr0.nicelocal.in/rKChTCQR5GuwJOT0il7f3A/640x440,fit,q85/4px-BW84_n0DnXqirQictfqu6BdNQMvrOxn7gEACGt9eD7njhzDa8d-6ceOju54EVLt7a_jyYbpmZHDrZSTogiRV9fhzRLjplZpidJCDmxajw4rauvEcalDe5f225v4MrySl9LBJCeKF87oEsvYfJ2BqmlcXJa4CLVILJ03BI8G--UXmejYyUnOZWxneMmxjVwfA8YO74CD_BetHIGAWkiCyhtzWNFrpCxtEig_JB3o);
+      background-repeat: no-repeat;
+      background-position: center;
+    background-size: cover;
+      width: 100%;
+      height: 100%;
+      opacity : 0.9;
+      z-index: -1;
+  }
+  .nav.navbar-nav li a {
+    color: #fff;
+  }
+ 
+ .nav.navbar-nav a:hover {
+  color: grey;
+ }
+ 
